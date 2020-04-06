@@ -1,0 +1,20 @@
+[package]
+name = "flashtext"
+version = "0.1.0"
+authors = ["Amey Narkhede <ameynarkhede02@gmail.com>"]
+edition = "2020"
+license = "MIT"
+
+readme = "README.md"
+description = "Rust implementation of flashtext algorithm to search and replace keywords in given text"
+
+keywords = ["string", "search", "replace"]
+categoty = ["data-structures", "algorithm"]
+
+[dev-dependencies]
+criterion = "0.3"
+regex = "1"
+
+[[bench]]
+name = "flashtext_benchmark"
+harness = false
