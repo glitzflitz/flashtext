@@ -1,6 +1,7 @@
 # flashtext
-
-[![Build Status](https://travis-ci.org/GreyDireWolf/flashtext.svg?branch=master)](https://travis-ci.org/GreyDireWolf/flashtext)
+[![Crates.io](https://img.shields.io/crates/v/flashtext)]((https://crates.io/crates/flashtext))
+[![Documentation](https://docs.rs/flashtext/badge.svg)](https://docs.rs/flashtext/)
+[![Build Status](https://travis-ci.org/GreyDireWolf/flashtext.svg?branch=master)](https://travis-ci.org/GreyDireWolf/flashtext) 
 
 Rust implementation of flashtext algorithm to search and replace keywords in given text
 
@@ -10,6 +11,8 @@ Add this to your Cargo.toml
 [dependencies]
 flashtext = "0.1.0"
 ```
+## Documentation
+
 
 ## Examples
 
