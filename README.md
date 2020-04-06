@@ -30,7 +30,7 @@ println!("{}", keywordprocessor.replace_keywords("She likes dancing"));
 
 - [x] Add tests
 - [ ] Add Benchmarks
-- [ ] Setup CI
+- [x] Setup CI
 
 ## Note
 This experimental implementation is for learning purposes. For better performance and more features you should use rust's regex engine.

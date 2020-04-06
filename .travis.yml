@@ -1,0 +1,12 @@
+dist: bionic
+language: rust
+
+rust:
+    - stable
+
+addons:
+    apt:
+        packages:
+            -gnuplot
+
+cache: cargo
