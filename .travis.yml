@@ -7,6 +7,6 @@ rust:
 addons:
     apt:
         packages:
-            -gnuplot
+            - gnuplot
 
 cache: cargo
