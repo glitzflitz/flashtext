@@ -29,7 +29,7 @@ println!("{}", keywordprocessor.replace_keywords("She likes dancing"));
 ## TODO
 
 - [x] Add tests
-- [ ] Add Benchmarks
+- [x] Add Benchmarks
 - [x] Setup CI
 
 ## Note
