@@ -1,4 +1,7 @@
 # flashtext
+
+[![Build Status](https://travis-ci.org/GreyDireWolf/flashtext.svg?branch=master)](https://travis-ci.org/GreyDireWolf/flashtext)
+
 Rust implementation of flashtext algorithm to search and replace keywords in given text
 
 # Usage
