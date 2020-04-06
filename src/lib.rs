@@ -9,7 +9,7 @@
 //! use flashtext::KeywordProcessor;
 //! let mut keywordprocessor = KeywordProcessor::new(false);
 //! keywordprocessor.add_keyword("apple");
-//! println!("{:?}", keywordprocessor.find_keywords("An apple fell from the tree");
+//! println!("{:?}", keywordprocessor.find_keywords("An apple fell from the tree"));
 //!```
 //!
 //!# Replace keyword/sentence
@@ -109,11 +109,12 @@ impl KeywordProcessor {
     ///
     /// ```
     /// use flashtext::KeywordProcessor;
+    /// use std::collections::HashSet;
     /// let mut keywordprocessor = KeywordProcessor::new(false);
     /// keywordprocessor.add_keyword("programming");
     /// let result = keywordprocessor.find_keywords("Rust is a systems programming language");
     /// let mut expected = HashSet::new();
-    /// expected.insert("programming");
+    /// expected.insert("programming".to_string());
     /// assert_eq!(result, expected);
     pub fn find_keywords(&self, input: &str) -> HashSet<String> {
         let mut keywords: HashSet<String> = HashSet::new();
