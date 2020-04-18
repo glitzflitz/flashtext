@@ -1,8 +1,7 @@
 # flashtext
 [![Crates.io](https://img.shields.io/crates/v/flashtext)]((https://crates.io/crates/flashtext))
 [![Documentation](https://docs.rs/flashtext/badge.svg)](https://docs.rs/flashtext/)
-[![Build Status](https://travis-ci.org/GreyDireWolf/flashtext.svg?branch=master)](https://travis-ci.org/GreyDireWolf/flashtext) 
-
+[![Build Status](https://travis-ci.org/glitzflitz/flashtext.svg?branch=master)](https://travis-ci.org/glitzflitz/flashtext)
 Rust implementation of flashtext algorithm to search and replace keywords in given text
 
 # Usage
