@@ -16,7 +16,7 @@ flashtext = "0.1.0"
 ## Examples
 
 ### Find keyword/sentence
-```
+```rust
 use flashtext::KeywordProcessor;
 let mut keywordprocessor = KeywordProcessor::new(false);
 keywordprocessor.add_keyword("apple");
@@ -24,7 +24,7 @@ println!("{:?}", keywordprocessor.find_keywords("An apple fell from the tree");
 ```
 
 ### Replace keyword/sentence
-```
+```rust
 use flashtext::KeywordProcessor;
 let mut keywordprocessor = KeywordProcessor::new(false);
 keywordprocessor.add_keywords("dancing", "reading");
